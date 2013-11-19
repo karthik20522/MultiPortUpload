@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zipstream - Demo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<script type='text/javascript' src='http://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+        google.load('jquery', '1.7.1');
+    </script>
+  </head>
+  <body>
+    <div id="frame">
+		<h3>Download using Node.js + Zipstream - Zip files while being streamed</h3>
+		<hr/>
+		<div>
+			<form action="/downloadFiles" method="post">
+				<input type="checkbox" name="file_group" value="681605" />File 1<br />
+				<input type="checkbox" name="file_group" value="681611" />File 2<br />
+				<input type="checkbox" name="file_group" value="681614" />File 3<br />
+				<input type="checkbox" name="file_group" value="1803875" />File 4<br />
+				<input type="checkbox" name="file_group" value="22589281" />File 5<br /><br></br>
+				
+				<input type="submit" value="Download files" />
+			</form>
+		</div>
+	</div>	
+  </body>
+</html>
